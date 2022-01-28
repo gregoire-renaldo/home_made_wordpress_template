@@ -9,10 +9,24 @@ Version: 1.0
 */
 
 .menu {
-    position: fixed;
-    top: 0px;
+  position: fixed;
+  top: 0px;
 }
 
 .admin-bar .menu {
-	top: 32px; /* on prend en compte le décalage */
+  top: 32px; /* on prend en compte le décalage */
+}
+
+body {
+  /* background-color: aqua; */
+}
+
+.header {
+  background-color: #232634;
+  display: flex;
+  justify-content: center;
+}
+
+.header img {
+  height:300px;
 }
